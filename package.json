@@ -1,0 +1,19 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "A site for developers to post and comment on blogs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skip-thurm/tech-blog.git"
+  },
+  "author": "Skipper Thurman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skip-thurm/tech-blog/issues"
+  },
+  "homepage": "https://github.com/skip-thurm/tech-blog#readme"
+}
