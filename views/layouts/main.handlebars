@@ -1,7 +1,7 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,16 +15,26 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="/css/style.css" />
-
-</head>
-
 </head>
 
 <body>
     <header>
+
         <h1>
             The Tech Blog
         </h1>
+
+        <nav>
+            <a href="/">Home</a>
+            {{#if logged_in}}
+            <a href="/dashboard">Dashboard</a> |
+            <button class="no-button" id="logout">Logout</button>
+            {{else}}
+            <a href="/login">Login</a>
+            {{/if}}
+        </nav>
+
+
     </header>
 
     <main class="container container-fluid col-12 mt-5 justify-content-center">
@@ -34,6 +44,6 @@
     <footer>
     </footer>
 
-    </head>
+</body>
 
 </html>
