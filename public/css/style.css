@@ -1,3 +1,72 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+/* Masthead for nav bar */
+.masthead {
+    background-color: #2be72e;
+    -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 -2px 5px rgba(90, 231, 186, 0.906);
+}
+
+/* Nav links */
+.nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: #43854900;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: #4385496f;
+    text-decoration: none;
+}
+
+/* Main name, title, description and text for each page */
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 20px;
+    color: #999;
+}
+
+.main {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Button functionality */
 .no-button {
     background: none;
     border: none;
@@ -6,9 +75,22 @@
     color: #1b89bc;
     text-decoration: none;
     font-size: 100%;
-  }
-  
-  .no-button:hover {
+}
+
+.no-button:hover {
     color: #065b83;
     text-decoration: underline;
+}
+
+/* Footer */
+
+ .footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+  }
+  .footer p:last-child {
+    margin-bottom: 0;
   }
