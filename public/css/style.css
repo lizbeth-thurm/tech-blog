@@ -107,7 +107,7 @@ h6,
     color: var(--light);
   }
   
-  .card header {
+  .card-title {
     color: var(--light);
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
@@ -115,6 +115,11 @@ h6,
     background-color: var(--tertiary);
     padding: 0.625rem;
     border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+  }
+
+  .card-content {
+    padding: 0.625rem;
+    color:#065b83;  
   }
   
   .card-body {
