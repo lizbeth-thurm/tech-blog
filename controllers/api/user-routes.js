@@ -39,3 +39,25 @@ router.post('/login', async (req, res) => {
         console.error(err);
     }
 });
+
+// signup
+router.post('signup', async (req, res) => {
+    try {
+        const dbUserData = await User.create({
+            email: req.body.email,
+            password: req.body.password
+        });
+
+        req.session.save(() => {
+            req.session.user_id = dbUserData.id;
+            req.session.logged_in = true;
+
+            res.status(200).json(dbUserData);
+        });
+    } catch (err) {
+        console.error(err);
+        res.status(500).json(err);
+    }
+});
+
+module.exports = router;
