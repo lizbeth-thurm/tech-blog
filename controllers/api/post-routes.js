@@ -4,7 +4,7 @@ const router = require('express').Router();
 const Post = require('../../models/Posts');
 
 // create post
-router.post('/', async (req, res) => {
+router.post('/dashboard', async (req, res) => {
     try {
         const postData = await Post.create({
             ...req.body,
