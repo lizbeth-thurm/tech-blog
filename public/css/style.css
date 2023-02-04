@@ -1,6 +1,7 @@
 body {
     font-family: Georgia, "Times New Roman", Times, serif;
     color: rgb(0, 0, 0);
+    background-color: #31a2d6cf;
 }
 
 h1,
@@ -23,9 +24,9 @@ h6,
 
 /* Masthead for nav bar */
 .masthead {
-    background-color: #2be72e;
+    background-color: #ea8b2d;
     -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
-    box-shadow: inset 0 -2px 5px rgba(90, 231, 186, 0.906);
+    box-shadow: inset 0 -2px 5px rgba(114, 55, 0, 0.906);
 }
 
 /* Nav links */
@@ -58,7 +59,7 @@ h6,
 
 .description {
     font-size: 20px;
-    color: #999;
+    color: #d711db;
 }
 
 .main {
@@ -72,13 +73,13 @@ h6,
     border: none;
     padding: 0;
     cursor: pointer;
-    color: #1b89bc;
+    color: #0ddc44;
     text-decoration: none;
     font-size: 100%;
 }
 
 .no-button:hover {
-    color: #065b83;
+    color: #c5e514;
     text-decoration: underline;
 }
 
@@ -103,7 +104,7 @@ h6,
     border-radius: var(--border-radius);
     border-style: double;
     border-width: thick;
-    background-color: #577a7c;
+    background-color: #ea0e0e;
     color: var(--light);
   }
   
@@ -119,7 +120,7 @@ h6,
 
   .card-content {
     padding: 0.625rem;
-    color:#065b83;  
+    color:#021dea;  
   }
   
   .card-body {
@@ -132,10 +133,10 @@ h6,
 
  .footer {
     padding: 40px 0;
-    color: #999;
+    color: rgb(3, 232, 232);
     text-align: center;
-    background-color: #f9f9f9;
-    border-top: 1px solid #e5e5e5;
+    background-color: #0f6787;
+    border-top: 1px solid #0d5700;
   }
   .footer p:last-child {
     margin-bottom: 0;
