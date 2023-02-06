@@ -18,12 +18,17 @@ const User = require('../../models/User');
 //     }
 //   });
 
-// login page
+// login
 router.post('/login', async (req, res) => {
     try {
         const userData = await User.findOne({
-            where: { email: req.body.email }
+            where: { 
+                email: req.body.email,
+                password: req.body.password
+                 }
         });
+
+        console.log(userData);
 
         if (!userData) {
             res.status(400).json(
@@ -56,6 +61,9 @@ router.post('/login', async (req, res) => {
 });
 
 // signup
+// ===================
+// NOT WORKING
+// ===================
 router.post('signup', async (req, res) => {
     try {
         const dbUserData = await User.create({

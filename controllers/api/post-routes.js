@@ -8,7 +8,7 @@ router.post('/dashboard', async (req, res) => {
     try {
         const postData = await Post.create({
             ...req.body,
-    user_id: req.session.user_id,
+            user_id: req.session.user_id,
         });
         res.status(200).json(newPost);
 
@@ -18,12 +18,15 @@ router.post('/dashboard', async (req, res) => {
 });
 
 // delete post
+// ===================
+// NOT WORKING
+// ===================
 router.delete('/:id', async (req, res) => {
     try {
         const postData = await Post.destroy({
             where: {
                 id: req.params.id,
-                user_id: req.session.user_id,
+                post_id: req.session.post_id,
             },
         });
 
