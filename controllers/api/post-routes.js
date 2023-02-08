@@ -18,9 +18,6 @@ router.post('/dashboard', async (req, res) => {
 });
 
 // delete post
-// ===================
-// NOT WORKING
-// ===================
 router.delete('/:id', async (req, res) => {
     try {
         const postData = await Post.destroy({
