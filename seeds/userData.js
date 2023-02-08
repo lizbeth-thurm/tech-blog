@@ -15,7 +15,7 @@ const seedUser = () => User.bulkCreate([
       "email": "snake@metalgear.gov",
       "password": "password123"
   }
-]);
+],{individualHooks:true});
 
 module.exports = seedUser;
 

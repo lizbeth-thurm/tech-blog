@@ -7,7 +7,8 @@ const { Post } = require("../models");
 router.get("/", function (req, res) {
     Post.findAll().then((postData) => {
         let posts = postData.map((m) => m.get({ plain: true }));
-        res.render("homepage", { posts })
+ //       res.render("homepage", { posts, logged_in:req.session.logged_in })
+ res.render("homepage", { posts, logged_in:true })
     }).catch((err) => {
         res.status(500).json({ "error": err });
     })
