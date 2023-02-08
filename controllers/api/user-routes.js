@@ -60,9 +60,6 @@ router.post('/login', async (req, res) => {
 });
 
 // signup
-// ===================
-// NOT WORKING
-// ===================
 router.post('signup', async (req, res) => {
     try {
         const dbUserData = await User.create({
@@ -86,6 +83,7 @@ router.post('signup', async (req, res) => {
 router.post('/logout', (req, res) => {
     if (req.session.logged_in) {
         req.session.destroy(() => {
+            console.log("Working");
             res.status(204).end();
         });
     } else {
