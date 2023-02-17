@@ -10,7 +10,7 @@ router.post('/dashboard', async (req, res) => {
             ...req.body,
             user_id: req.session.user_id,
         });
-        res.status(200).json(newPost);
+        res.status(200).json(postData);
 
     } catch (err) {
         res.status(400).json(err);
@@ -23,7 +23,6 @@ router.delete('/:id', async (req, res) => {
         const postData = await Post.destroy({
             where: {
                 id: req.params.id,
-                post_id: req.session.post_id,
             },
         });
 
@@ -34,6 +33,7 @@ router.delete('/:id', async (req, res) => {
 
         res.status(200).json(postData);
     } catch (err) {
+        console.error(err);
         res.status(500).json(err);
     }
 });

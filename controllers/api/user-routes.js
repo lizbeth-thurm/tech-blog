@@ -60,7 +60,7 @@ router.post('/login', async (req, res) => {
 });
 
 // signup
-router.post('signup', async (req, res) => {
+router.post('/signup', async (req, res) => {
     try {
         const dbUserData = await User.create({
             email: req.body.email,
