@@ -1,21 +1,24 @@
-const { User } = require('../models');
+const { User } = require("../models");
 
-const seedUser = () => User.bulkCreate([
-    {
-        "email": "kirby@dreamworld.com",
-        "password": "password123"
-    },
+const seedUser = () =>
+  User.bulkCreate(
+    [
+      {
+        email: "kirby@dreamworld.com",
+        password: "password123",
+      },
 
-    {
-        "email": "mario@plumbers.org",
-        "password": "password123"
-    },
+      {
+        email: "mario@plumbers.org",
+        password: "password123",
+      },
 
-  {
-      "email": "snake@metalgear.gov",
-      "password": "password123"
-  }
-],{individualHooks:true});
+      {
+        email: "snake@metalgear.gov",
+        password: "password123",
+      },
+    ],
+    { individualHooks: true }
+  );
 
 module.exports = seedUser;
-
