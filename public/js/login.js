@@ -14,6 +14,7 @@ const loginFormHandler = async (event) => {
   });
   if (response.ok) {
     document.location.replace("/");
+    const loggedIn = true;
   } else {
     alert("Cannot login");
   }

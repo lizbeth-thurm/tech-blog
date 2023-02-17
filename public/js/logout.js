@@ -8,6 +8,7 @@ const logout = async () => {
     console.log("logout.js is working");
     document.location.replace("/");
     alert("Logout successful");
+    const loggedIn = false;
   } else {
     alert("Unable to logout");
   }
