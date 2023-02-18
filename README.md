@@ -18,6 +18,7 @@
   
   ## Resources
   [Deployed Website](https://lizbeth-thurm.github.io/tech-blog/)
+  
   [Github Repository](https://github.com/lizbeth-thurm/tech-blog)
   
   ## Questions
