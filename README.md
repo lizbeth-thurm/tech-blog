@@ -7,6 +7,7 @@
   ## Table of Contents
   - [License](#license)
   - [Screenshot](#screenshot)
+  - [Resources](#resources)
   - [Questions](#questions)
   
   ## License
@@ -14,6 +15,10 @@
 
   ## Screenshot
   View screenshot [here](./public/images/screenshot.png)
+  
+  ## Resources
+  [Deployed Website](https://lizbeth-thurm.github.io/tech-blog/)
+  [Github Repository](https://github.com/lizbeth-thurm/tech-blog)
   
   ## Questions
   GitHub Username:
