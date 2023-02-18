@@ -1,7 +1,7 @@
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: rgb(0, 0, 0);
-    background-color: #31a2d6cf;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background-color: blue;
 }
 
 h1,
@@ -16,128 +16,135 @@ h5,
 .h5,
 h6,
 .h6 {
-    margin-top: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    color: rgb(0, 0, 0);
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: white;
 }
 
 /* Masthead for nav bar */
 .masthead {
-    background-color: #ea8b2d;
-    -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
-    box-shadow: inset 0 -2px 5px rgba(114, 55, 0, 0.906);
+  background-color: orange;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 -2px 5px rgba(114, 55, 0, 0.906);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0.5rem 1rem;
 }
 
 /* Nav links */
 .nav-item {
-    position: relative;
-    display: inline-block;
-    padding: 10px;
-    font-weight: 500;
-    color: #43854900;
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: orange;
 }
 
 .nav-item:hover,
 .nav-item:focus {
-    color: #4385496f;
-    text-decoration: none;
+  color: orange;
+  text-decoration: none;
 }
 
 /* Main name, title, description and text for each page */
 .header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .title {
-    margin-top: 30px;
-    margin-bottom: 0;
-    font-size: 60px;
-    font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: 400;
 }
 
 .description {
-    font-size: 20px;
-    color: #d711db;
+  font-size: 20px;
+  color: orange;
 }
 
 .main {
-    font-size: 18px;
-    line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 /* Button functionality */
 .no-button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    color: #0ddc44;
-    text-decoration: none;
-    font-size: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
 }
 
 .no-button:hover {
-    color: #c5e514;
-    text-decoration: underline;
+  color: blue;s
+  text-decoration: underline;
 }
 
 .card {
-    margin: 20px;
-    margin-left: 28%;
-    flex: 0 1 300px;
-    border: 7px double var(--dark);
-    border-radius: 10px;
-    background-color: var(--light);
-    color: var(--dark);
-    width: 500px;
-    justify-content: center;
-  }
-  
-  .login-card {
-    margin: 0 0 20px 0;
-    flex: 0 0 50%;
-    max-width: 50%;
-    padding: 5px;
-    border: 3px solid var(--dark);
-    border-radius: var(--border-radius);
-    border-style: double;
-    border-width: thick;
-    background-color: #ea0e0e;
-    color: var(--light);
-  }
-  
-  .card-title {
-    color: var(--light);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-    margin: 0;
-    background-color: var(--tertiary);
-    padding: 0.625rem;
-    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
-  }
+  margin: 20px;
+  margin-left: 28%;
+  flex: 0 1 300px;
+  border: 7px double var(--dark);
+  border-radius: 10px;
+  background-color: var(--light);
+  color: var(--dark);
+  width: 500px;
+  justify-content: center;
+}
 
-  .card-content {
-    padding: 0.625rem;
-    color:#021dea;  
-  }
-  
-  .card-body {
-    font-size: 1.4rem;
-    text-align: left;
-    line-height: normal;
-  }
+.login-card {
+  margin: 0 0 20px 0;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 5px;
+  border: 3px solid var(--dark);
+  border-radius: var(--border-radius);
+  border-style: double;
+  border-width: thick;
+  background-color: orange;
+  color: var(--dark);
+}
+
+.card-title {
+  color: var(--light);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  margin: 0;
+  background-color: var(--tertiary);
+  padding: 0.625rem;
+  border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+}
+
+.card-content {
+  padding: 0.625rem;
+  color: white;
+}
+
+.card-body {
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: normal;
+}
 
 /* Footer */
 
- .footer {
-    padding: 40px 0;
-    color: rgb(3, 232, 232);
-    text-align: center;
-    background-color: #0f6787;
-    border-top: 1px solid #0d5700;
-  }
-  .footer p:last-child {
-    margin-bottom: 0;
-  }
+.footer {
+  padding: 40px 0;
+  color: rgb(3, 232, 232);
+  text-align: center;
+  background-color: orange;
+  border-top: 1px solid #0d5700;
+}
+.footer p:last-child {
+  margin-bottom: 0;
+}
