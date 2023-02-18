@@ -2,7 +2,7 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "description": "A site for developers to post and comment on blogs.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/skip-thurm/tech-blog/issues"
   },
-  "homepage": "https://lizbeth-thurm.github.io/tech-blog/",
+  "homepage": "https://github.com/skip-thurm/tech-blog",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
