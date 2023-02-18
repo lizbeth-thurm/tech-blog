@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/skip-thurm/tech-blog/issues"
   },
-  "homepage": "https://github.com/skip-thurm/tech-blog#readme",
+  "homepage": "https://lizbeth-thurm.github.io/tech-blog/",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
