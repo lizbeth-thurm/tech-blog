@@ -28,4 +28,4 @@
 
   You can reach me with any questions at:
   
-  slthurman01@gmail.com
+  [slthurman01@gmail.com](slthurman01@gmail.com)
