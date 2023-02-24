@@ -17,7 +17,7 @@
   View screenshot [here](./public/images/screenshot.png)
   
   ## Resources
-  [Deployed Website](https://lizbeth-thurm.github.io/tech-blog/)
+  [Deployed Website](https://tech-blog-2023.herokuapp.com/)
   
   [Github Repository](https://github.com/lizbeth-thurm/tech-blog)
   
